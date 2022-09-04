@@ -1,0 +1,7 @@
+def add(*n):
+    sum=0
+    for num in n:
+        sum = sum + num
+    print("Sum: ",sum)
+add(2,3)
+add(10,20,30)
